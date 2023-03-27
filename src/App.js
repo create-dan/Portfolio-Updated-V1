@@ -24,7 +24,7 @@ const App = () => {
       <ChakraProvider>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} exact />
+          <Route path="/Portfolio-Updated-V1" element={<Home />} exact />
           <Route path="/contact" element={<HomeFormPage />} exact />
           <Route path="/projects" element={<Projects />} exact />
           <Route path="/education" element={<Education />} exact />
